@@ -4,12 +4,30 @@ import './App.css';
 import RunModal from './RunModal';
 import MonthLedger from './MonthLedger';
 
+import runs from './resources/runs.json';
+
+
 class App extends Component {
   constructor(props) {
     super(props);
+
+    let modalRunInfo = null;
+    if (props.match.params.date) {
+      const [year, month, day] = props.match.params.date.split('-');
+      runs.forEach(run => {
+        if (parseInt(year, 10) === run.year &&
+            parseInt(month, 10) === run.month &&
+            parseInt(day, 10) === run.day) {
+          modalRunInfo = run;
+        }
+      });
+    }
+
     this.state = {
-      modalRunInfo: null,
+      modalRunInfo,
     };
+
+    console.log(props.match.params.date);
 
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);

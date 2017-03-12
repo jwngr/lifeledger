@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import {getImageKey} from './utils';
 
@@ -16,12 +17,12 @@ class MonthLedger extends Component {
         const key = getImageKey(day, month, year);
 
         images.push(
-          <img
-            key={key}
-            alt={key}
-            src={require(`./images/runs/${key}.jpg`)}
-            onClick={this.props.openModal.bind(null, run)}
-          />
+          <Link to={key} key={key}>
+            <img
+              alt={key}
+              src={require(`./images/runs/${key}.jpg`)}
+              onClick={this.props.openModal.bind(null, run)} />
+          </Link>
         );
       }
     });
