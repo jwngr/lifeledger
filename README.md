@@ -41,4 +41,4 @@ my phone and was used to generate the awesome running cards. Data for the cards 
 The icons used in the popup modal are by
 [madebyoliver](http://www.flaticon.com/authors/madebyoliver) and
 [Freepick](http://www.flaticon.com/authors/freepik) from over at
-[www.flaticon.com](www.flaticon.com).
+[Flaticon](http://www.flaticon.com).
