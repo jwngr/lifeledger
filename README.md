@@ -24,9 +24,9 @@ The site was deployed for free onto [Firebase Hosting](https://firebase.google.c
 
 ```bash
 $ git clone git@github.com:jwngr/lifeledger.git
-$ npm install   # Install dependencies
-$ npm start     # Start local dev server at http://localhost:3000/
-$ npm build     # Build for production
+$ npm install       # Install dependencies
+$ npm start         # Start local dev server at http://localhost:3000/
+$ npm run build     # Build for production
 ```
 
 ## Acknowledgements
