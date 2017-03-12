@@ -27,8 +27,6 @@ class App extends Component {
       modalRunInfo,
     };
 
-    console.log(props.match.params.date);
-
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }

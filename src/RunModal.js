@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Redirect} from 'react-router-dom';
 
-import {getImageKey, getFormattedTime} from './utils';
+import {getImageKey, getRegularTime} from './utils';
 
 import months from './resources/months.json';
 
@@ -30,7 +30,7 @@ class RunModal extends Component {
               <div className="title">
                 <p>{months[month]} {day}, {year}</p>
                 <p className="dateTimeSeparator">|</p>
-                <p>{getFormattedTime(startTime)}</p>
+                <p>{getRegularTime(startTime)}</p>
               </div>
               <div className="runInfo">
                 <div>
