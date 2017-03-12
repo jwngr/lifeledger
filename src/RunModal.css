@@ -153,6 +153,10 @@
     width: 40px;
   }
 
+  .runInfo .metric {
+    padding-left: 10px;
+  }
+
   .runInfo .metric > p:first-of-type {
     font-size: 26px;
   }

@@ -53,7 +53,7 @@ class RunModal extends Component {
                   <img src={require('./images/icons/stopwatch-pace.svg')} alt="Pace" />
                   <div className="metric">
                     <p>{pace}</p>
-                    <p>mins / mile</p>
+                    <p>mins/mile</p>
                   </div>
                 </div>
 
