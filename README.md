@@ -8,7 +8,7 @@ Made as part of the "King of the Internet" one-day hackathon with
 
 ## Live Demo
 
-See it in action [here](https://jwngr-5cb4b.firebaseapp.com/).
+See it in action [here](https://running-2016.firebaseapp.com/).
 
 
 ## Tech Stack
